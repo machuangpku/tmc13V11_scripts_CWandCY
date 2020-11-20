@@ -1,0 +1,35 @@
+step1:
+put your tmc3.exe into the dirs and rename as:
+tmc3_0.exe
+tmc3_1.exe
+tmc3_2.exe
+tmc3_3.exe
+tmc3_4.exe
+tmc3_5.exe
+tmc3_6.exe
+put your cfg file in the root dir
+step2:
+run_0.py
+run_1.py
+run_f2.py
+run_f3.py
+run_f4.py
+run_f5.py
+run_q6.py
+step3:
+rename new excel file as tmc13anchor.xlsm
+run_read.py
+
+each process will make two txt:
+runLog_0.txt save the procedure of this process,if you process is interpetted,you can check it and rerun the scripts
+Dismatch_0.txt save the name of dismatch file
+
+备注
+run_0.py 运行三个条件C1 CW CY中的cat1和cat3-fused数据集
+run_1.py 运行条件C2中的cat1和cat3-fused数据集
+run_f2.py 运行条件C1中的ford数据集
+run_f3.py 运行条件C2中的ford数据集
+run_f4.py 运行条件CW中的ford数据集
+run_f5.py 运行条件CY中的ford数据集
+run_q6.py 运行四个条件条件中的qnxadas数据集
+run_read.py 读取运行结果并记录到Excel表格中
